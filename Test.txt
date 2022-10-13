@@ -1,0 +1,129 @@
+1.Java is a platform independent beacause it will perform its opeartions in any platform like it doesnt 
+ depends on any software or hardware Because once the Program is written it will be converted from source 
+ code into byte code by the help of compiler that byte code can be executed at any platforms just it need
+ a jre(Java runtime environment) in it.Platform independent java langauge is more efficient than other 
+ langauges because we can use it in any platform where we want.
+ 
+ 
+2.Premitive and Non premitive:
+	Total 8 types of premitive datat types are their and are:
+	 int,float,char,boolean,byte,bit,double,short.
+	 All premitive starts with lower case.
+	 These will always have short names.
+ 
+	Non-premitive data types are many and are: String,class,reference types
+	All non primitive starts with uppercase.
+	
+3.Class and its members:
+	Class is a design which contain .
+	Object is an instance of class.
+	Their are two members of class :static and instance:
+	Static members (variables and methods) are class members Where as Instance members are object members.
+
+4.	class Marks
+{
+	public static void main(String arg[])
+	{
+	int total=100;
+	int recieved=76;
+	int percentage;
+	System.out.println("The percentage is:");
+	if(total<recieved)
+	{
+	percentage=(recieved/total)*100;
+	System.out.println(percentage);
+
+	}
+
+
+}}
+
+
+
+5.Remove duplicate in an below array:
+
+
+
+
+
+6.Explain the main method with the memory it executes in
+	Methods are collection of statements that are grouped together to perform any (operation) functionality.
+	Number of arguments should match with number of parameters of the method.
+	Main method is the first method which used to get executed in the program 
+	main method starts with lower case it will start the program
+	Their are 2 types of methods:static and instance
+
+  
+
+7.Reverse number program:
+	class ReverseNumber
+	{
+		public static void main(String args[])
+		{
+		int num = 1234, rev = 0;
+		System.out.println("Original number : " + num);
+		while(num != 0)
+		{
+			int digit = num % 10;
+			rev = rev * 10 + digit;
+			num = num / 10;  
+		}
+		System.out.println("Rev number : " + rev);  
+	   }
+	}
+	
+	
+	
+	
+	
+	
+8.Program to find hours into seconds
+class clock
+{
+public static void main(String a[])
+{
+int hours =3;
+int minutes;
+int seconds;
+System.out.println("Converting hours into seconds");
+if (hours<24)
+{
+	seconds=hours*3600;
+
+}
+System.out.println("Converting hours into seconds", hours);
+}
+}
+
+
+
+
+
+
+
+
+9.	Program to find armstrong number:
+
+
+
+	class armstrong
+	{
+	public static void main (String a[])
+	{
+	int number = 276,realNumber,reminder,result=0;
+	realNumber=number;
+	while(original number!=0)
+	{
+	reminder = realNumber%10;
+	result= math.pow(reminder,3);
+	realNumber/=10;
+	}
+	if(result== number)
+	system.out.println(number+"is an  armstrong number");
+	else
+	system.out.println(number+"is an  armstrong number");
+	}
+
+	} 
+
+
